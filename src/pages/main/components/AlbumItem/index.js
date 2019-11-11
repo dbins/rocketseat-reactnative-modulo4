@@ -6,10 +6,11 @@ import styles from "./styles";
 
 const AlbumItem = ({ album, onPress }) => (
   <TouchableOpacity onPress={onPress} style={styles.container}>
-    <Image style={styles.thumbail} source={{ uri: album.thumbail }} />
+    <Image style={styles.thumbnail} source={{ uri: album.thumbnail }} />
     <View style={styles.info}>
       <Text style={styles.title}>{album.title}</Text>
       <Text style={styles.author}>{album.author}</Text>
+      <Text style={styles.author}>{`${album.songs.length} músicas`}</Text>
     </View>
     <Icon name="more-horiz" size={24} style={styles.more} />
   </TouchableOpacity>

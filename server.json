@@ -2,342 +2,427 @@
   "albums": [
     {
       "id": 0,
-      "title": "Hybrid Theory",
-      "author": "Linkin Park",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "title": "Cro Magnon Man",
+      "author": "The Stark Palace",
+      "thumbnail": "https://www.free-stock-music.com/thumbnails/hyde-drum-and-bass-rock-pendulum-inspired-instrumental.jpg",
       "songs": [
         {
           "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
+          "title": "Cro Magnon Man",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
         },
         {
           "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Your Face",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3"
         },
         {
           "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
-        },
-        {
-          "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
-        },
-        {
-          "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
+          "title": "Cyber Sonnet",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3"
         }
       ]
     },
     {
       "id": 1,
-      "title": "Greatest Hits",
-      "author": "Foo Fighters",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/foo_fighters.jpg",
+      "title": "Synth Wave",
+      "author": "FSM Team",
+      "thumbnail": "https://www.free-stock-music.com/thumbnails/synthetic.jpg",
       "songs": [
         {
           "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
+          "title": "Synthetic",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/synthetic.mp3"
         },
         {
           "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Love to Know",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/electronic-senses-love-to-know.mp3"
         },
         {
           "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
+          "title": "Open Space",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/open-space.mp3"
         },
         {
           "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
+          "title": "Flying Home",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/flying-home.mp3"
         },
         {
           "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
+          "title": "Dreamwalking",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-escp-dreamwalking.mp3"
+        },
+		{
+          "id": 5,
+          "title": "Escape the Abyss",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-escp-abyss.mp3"
+        },
+		{
+          "id": 6,
+          "title": "Over the Ocean",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-over-the-ocean.mp3"
+        },
+		{
+          "id": 7,
+          "title": "Filter",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/electronic-senses-filter-12.mp3"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Live from Villa Mix",
-      "author": "Alok",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/alok.jpg",
+      "title": "Synth Pop",
+      "author": "Compilation",
+      "thumbnail": "https://www.free-stock-music.com/thumbnails/serge-narcissoff-background-theme.jpg",
       "songs": [
         {
           "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
+          "title": "Over the Ocean",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/fsm-team-over-the-ocean.mp3"
         },
         {
           "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Without Name",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-without-name.mp3"
         },
         {
           "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
+          "title": "Chill Synt Pop",
+          "author": "Alex Menco",
+          "file": "https://www.free-stock-music.com/music/alex-menco-chill-synth-pop.mp3"
         },
         {
           "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
+          "title": "Green",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-green.mp3"
         },
         {
           "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
+          "title": "Background Theme",
+          "author": "Serge Narcissoff",
+          "file": "https://www.free-stock-music.com/music/serge-narcissoff-background-theme.mp3"
+        },
+		{
+          "id": 5,
+          "title": "Cheerful",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-cheerful.mp3"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Hybrid Theory",
-      "author": "Linkin Park",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "title": "Videogames",
+      "author": "Bins",
+      "thumbnail": "https://www.free-stock-music.com/thumbnails/makai-symphony-dragon-slayer.jpg",
       "songs": [
         {
           "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
+          "title": "Breaking the Siege",
+          "author": "Arthur Vyncke",
+          "file": "https://www.free-stock-music.com/music/arthur-vyncke-breaking-the-siege.mp3"
         },
         {
           "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Desert Dance",
+          "author": "Bins",
+          "file": "https://www.free-stock-music.com/music/desert-dance.mp3"
         },
         {
           "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Planet Hell",
+          "author": "Serge Narcissoff",
+          "file": "https://www.free-stock-music.com/music/serge-narcissoff-planet-hell.mp3"
         },
         {
           "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
+          "title": "Simply Me",
+          "author": "Deoxys Beats",
+          "file": "https://www.free-stock-music.com/music/deoxys-beats-simply-me.mp3"
         },
         {
           "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
+          "title": "Dragon Slayer",
+          "author": "Makai Symphony",
+          "file": "https://www.free-stock-music.com/music/makai-symphony-dragon-slayer.mp3"
+        },
+		{
+          "id": 5,
+          "title": "Unknown World",
+          "author": "FM Freemusic",
+          "file": "https://www.free-stock-music.com/music/fm-freemusic-unknown-world.mp3 "
+        },
+		{
+          "id": 6,
+          "title": "To the Crows",
+          "author": "Arthur Vyncke",
+          "file": "https://www.free-stock-music.com/music/arthur-vyncke-to-the-crows.mp3"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Live from Villa Mix",
-      "author": "Alok",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/alok.jpg",
-      "songs": [
+      "title": "Trip Hop",
+      "author": "Bins",
+      "thumbnail": "https://www.free-stock-music.com/thumbnails/ron-gelinas-chillout-lounge-soul-searching.jpg",
+	  "songs": [
         {
           "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
+          "title": "Premonition of Tomorrow",
+          "author": "Keys of Moon",
+          "file": "https://www.free-stock-music.com/music/keys-of-moon-premonition-of-tomorrow.mp3"
         },
         {
           "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
+          "title": "Soul Searching",
+          "author": "Ron Gelinas",
+          "file": "https://www.free-stock-music.com/music/ron-gelinas-chillout-lounge-soul-searching.mp3"
         },
         {
           "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
+          "title": "Shower Thoughts",
+          "author": "Amethyst Cloud",
+          "file": "https://www.free-stock-music.com/music/amethyst-cloud-shower-thoughts.mp3"
         },
         {
           "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
+          "title": "You Told Me It Was Fine",
+          "author": "Le Gang",
+          "file": "https://www.free-stock-music.com/music/le-gang-you-told-me-it-was-fine.mp3"
         },
         {
           "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
+          "title": "The Reckoning",
+          "author": "Aerohead",
+          "file": "https://www.free-stock-music.com/music/aerohead-the-reckoning.mp3"
         }
       ]
-    },
-    {
-      "id": 5,
-      "title": "Greatest Hits",
-      "author": "Foo Fighters",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/foo_fighters.jpg",
-      "songs": [
-        {
-          "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
-        },
-        {
-          "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
-        },
-        {
-          "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
-        },
-        {
-          "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
-        },
-        {
-          "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Hybrid Theory",
-      "author": "Linkin Park",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "songs": [
-        {
-          "id": 0,
-          "title": "Papercut",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3"
-        },
-        {
-          "id": 1,
-          "title": "One Step Closer",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3"
-        },
-        {
-          "id": 2,
-          "title": "With You",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3"
-        },
-        {
-          "id": 3,
-          "title": "Points of Authority",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3"
-        },
-        {
-          "id": 4,
-          "title": "Crawling",
-          "author": "Linkin Park",
-          "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3"
-        }
-      ]
-    }
-  ],
-  "playlists": [
-    {
-      "id": 1,
-      "title": "Saudade das antigas",
-      "description": "Músicas antigas que vão te lembrar dos melhores momentos.",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
-    },
-    {
-      "id": 2,
-      "title": "In Too Deep",
-      "description": "As melhores músicas do POP clássico em uma única playlist.",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/foo_fighters.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Salad Days",
-      "description": "Animar seu dia nunca foi tão fácil, ouça essas músicas e tenha um dia mais feliz!",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/alok.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Só elas",
-      "description": "As melhores cantoras POP reunidas em uma playlist pra você.",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
     }
   ],
   "songs": [
-    {
-      "id": 0,
-      "title": "Papercut",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 1
-    },
-    {
-      "id": 1,
-      "title": "One Step Closer",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 2
-    },
-    {
-      "id": 2,
-      "title": "With You",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 3
-    },
-    {
-      "id": 3,
-      "title": "Points of Authority",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 4
-    },
-    {
-      "id": 4,
-      "title": "Crawling",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 4
-    }
+           {
+          "id": 0,
+		  "playlistId": 0,
+          "title": "Cro Magnon Man",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+        },
+        {
+          "id": 1,
+		  "playlistId": 0,
+          "title": "Your Face",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3"
+        },
+        {
+          "id": 2,
+		  "playlistId": 0,
+          "title": "Cyber Sonnet",
+          "author": "The Stark Palace",
+          "file": "http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3"
+        },
+
+        {
+          "id": 3,
+		  "playlistId": 1,
+          "title": "Synthetic",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/synthetic.mp3"
+        },
+        {
+          "id": 4,
+		  "playlistId": 1,
+          "title": "Love to Know",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/electronic-senses-love-to-know.mp3"
+        },
+        {
+          "id": 5,
+		  "playlistId": 1,
+          "title": "Open Space",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/open-space.mp3"
+        },
+        {
+          "id": 6,
+		  "playlistId": 1,
+          "title": "Flying Home",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/flying-home.mp3"
+        },
+        {
+          "id": 7,
+		  "playlistId": 1,
+          "title": "Dreamwalking",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-escp-dreamwalking.mp3"
+        },
+		{
+          "id": 8,
+		  "playlistId": 1,
+          "title": "Escape the Abyss",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-escp-abyss.mp3"
+        },
+		{
+          "id": 9,
+		  "playlistId": 1,
+          "title": "Over the Ocean",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/fsm-team-over-the-ocean.mp3"
+        },
+		{
+          "id": 10,
+		  "playlistId": 1,
+          "title": "Filter",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/music/electronic-senses-filter-12.mp3"
+        },
+
+        {
+          "id": 11,
+		  "playlistId": 2,
+          "title": "Over the Ocean",
+          "author": "FSM Team",
+          "file": "https://www.free-stock-music.com/music/fsm-team-over-the-ocean.mp3"
+        },
+        {
+          "id": 12,
+		  "playlistId": 2,
+          "title": "Without Name",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-without-name.mp3"
+        },
+        {
+          "id": 13,
+		  "playlistId": 2,
+          "title": "Chill Synt Pop",
+          "author": "Alex Menco",
+          "file": "https://www.free-stock-music.com/music/alex-menco-chill-synth-pop.mp3"
+        },
+        {
+          "id": 14,
+		  "playlistId": 2,
+          "title": "Green",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-green.mp3"
+        },
+        {
+          "id": 15,
+		  "playlistId": 2,
+          "title": "Background Theme",
+          "author": "Serge Narcissoff",
+          "file": "https://www.free-stock-music.com/music/serge-narcissoff-background-theme.mp3"
+        },
+		{
+          "id": 16,
+		  "playlistId": 2,
+          "title": "Cheerful",
+          "author": "Electronic Senses",
+          "file": "https://www.free-stock-music.com/music/electronic-senses-cheerful.mp3"
+        },
+
+        {
+          "id": 17,
+		  "playlistId": 3,
+          "title": "Breaking the Siege",
+          "author": "Arthur Vyncke",
+          "file": "https://www.free-stock-music.com/music/arthur-vyncke-breaking-the-siege.mp3"
+        },
+        {
+          "id": 18,
+		  "playlistId": 3,
+          "title": "Desert Dance",
+          "author": "Bins",
+          "file": "https://www.free-stock-music.com/music/desert-dance.mp3"
+        },
+        {
+          "id": 19,
+		  "playlistId": 3,
+          "title": "Planet Hell",
+          "author": "Serge Narcissoff",
+          "file": "https://www.free-stock-music.com/music/serge-narcissoff-planet-hell.mp3"
+        },
+        {
+          "id": 20,
+		  "playlistId": 3,
+          "title": "Simply Me",
+          "author": "Deoxys Beats",
+          "file": "https://www.free-stock-music.com/music/deoxys-beats-simply-me.mp3"
+        },
+        {
+          "id": 21,
+		  "playlistId": 3,
+          "title": "Dragon Slayer",
+          "author": "Makai Symphony",
+          "file": "https://www.free-stock-music.com/music/makai-symphony-dragon-slayer.mp3"
+        },
+		{
+          "id": 22,
+		  "playlistId": 3,
+          "title": "Unknown World",
+          "author": "FM Freemusic",
+          "file": "https://www.free-stock-music.com/music/fm-freemusic-unknown-world.mp3 "
+        },
+		{
+          "id": 23,
+		  "playlistId": 3,
+          "title": "To the Crows",
+          "author": "Arthur Vyncke",
+          "file": "https://www.free-stock-music.com/music/arthur-vyncke-to-the-crows.mp3"
+        },
+
+        {
+          "id": 24,
+		  "playlistId": 4,
+          "title": "Premonition of Tomorrow",
+          "author": "Keys of Moon",
+          "file": "https://www.free-stock-music.com/music/keys-of-moon-premonition-of-tomorrow.mp3"
+        },
+        {
+          "id": 25,
+		  "playlistId": 4,
+          "title": "Soul Searching",
+          "author": "Ron Gelinas",
+          "file": "https://www.free-stock-music.com/music/ron-gelinas-chillout-lounge-soul-searching.mp3"
+        },
+        {
+          "id": 26,
+		  "playlistId": 4,
+          "title": "Shower Thoughts",
+          "author": "Amethyst Cloud",
+          "file": "https://www.free-stock-music.com/music/amethyst-cloud-shower-thoughts.mp3"
+        },
+        {
+          "id": 27,
+		  "playlistId": 4,
+          "title": "You Told Me It Was Fine",
+          "author": "Le Gang",
+          "file": "https://www.free-stock-music.com/music/le-gang-you-told-me-it-was-fine.mp3"
+        },
+        {
+          "id": 28,
+		  "playlistId": 4,
+          "title": "The Reckoning",
+          "author": "Aerohead",
+          "file": "https://www.free-stock-music.com/music/aerohead-the-reckoning.mp3"
+        }
+
   ]
 }

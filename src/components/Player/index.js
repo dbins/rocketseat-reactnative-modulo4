@@ -11,7 +11,31 @@ const currentSong = {
   title: "Papercut",
   author: "Linkin Park"
 };
-const Player = ({ player, play, pause, next, previous }) => {
+const Player = ({
+  player,
+  play,
+  pause,
+  next,
+  previous,
+  getCurrentPosition
+}) => {
+  //var timeout = setInterval(() => {
+  //  getCurrentPosition();
+  // }, 1000);
+
+  function converterSegundos(time) {
+    var hr = ~~(time / 3600);
+    var min = ~~((time % 3600) / 60);
+    var sec = parseInt(time % 60);
+    var sec_min = "";
+    if (hr > 0) {
+      sec_min += "" + hrs + ":" + (min < 10 ? "0" : "");
+    }
+    sec_min += "" + min + ":" + (sec < 10 ? "0" : "");
+    sec_min += "" + sec;
+    return sec_min + " min";
+  }
+
   if (player.currentSong.id === undefined) return null;
   const pressFunction = player.paused ? play : pause;
   const icon = player.paused ? "play-circle-filled" : "pause-circle-filled";
@@ -19,7 +43,10 @@ const Player = ({ player, play, pause, next, previous }) => {
     <View style={styles.container}>
       <View style={styles.currentSong}>
         <Text style={styles.title}>{player.currentSong.title}</Text>
-        <Text style={styles.author}>{player.currentSong.author}</Text>
+        <Text style={styles.author}>
+          {player.currentSong.author} -{" "}
+          {converterSegundos(player.currentSong.duration)}
+        </Text>
       </View>
       <View style={styles.controls}>
         <TouchableOpacity onPress={previous}>
@@ -46,13 +73,15 @@ Player.propTypes = {
   player: PropTypes.shape({
     currentSong: PropTypes.shape({
       title: PropTypes.string,
-      author: PropTypes.string
+      author: PropTypes.string,
+      duration: PropTypes.number
     })
   }).isRequired,
   play: PropTypes.func.isRequired,
   pause: PropTypes.func.isRequired,
   next: PropTypes.func.isRequired,
-  previous: PropTypes.func.isRequired
+  previous: PropTypes.func.isRequired,
+  getCurrentPosition: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({

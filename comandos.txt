@@ -7,3 +7,4 @@ Teste local
 json-server server.json -p 3001 -w -d 500
 Teste no aparelho (não funciona localhost ou 127.0.0.1)
 json-server server.json -H 192.168.9.1 -p 3001 -w -d 500
+json-server server.json -H 192.168.0.100 -p 3001 -w -d 500

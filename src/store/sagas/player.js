@@ -45,10 +45,24 @@ export function* setSong(action) {
     if (Sound.isLoaded()) yield call(Sound.release);
     yield call(Sound.init, action.payload.song.file);
     yield call(play); //Saga
+    const duration = Sound.getDuration();
+    action.payload.song.duration = duration;
     yield put(
       PlayerActions.setSongSuccess(action.payload.song, action.payload.list)
     );
+
+    yield put(PlayerActions.setDuration(0));
   } catch (err) {
     yield put(PlayerActions.setSongFailure("Erro ao iniciar música"));
+  }
+}
+
+export function* getCurrentPosition() {
+  if (Sound.isLoaded()) {
+    var segundos = 0;
+    Sound.getCurrentTime(seconds => {
+      segundos = seconds;
+    });
+    yield put(PlayerActions.setDuration(segundos));
   }
 }

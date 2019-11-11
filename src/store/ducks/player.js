@@ -8,7 +8,9 @@ export const Types = {
   PLAY: "player/PLAY",
   PAUSE: "player/PAUSE",
   NEXT: "player/NEXT",
-  PREVIOUS: "player/PREVIOUS"
+  PREVIOUS: "player/PREVIOUS",
+  SET_DURATION: "player/DURATION",
+  GET_CURRENT_POSITION: "player/GET_CURRENT_POSITION"
 };
 
 const initialState = Immutable({
@@ -16,7 +18,8 @@ const initialState = Immutable({
   list: [],
   loadingId: null,
   error: null,
-  paused: false
+  paused: false,
+  duration: 0
 });
 
 export default function player(state = initialState, action) {
@@ -38,6 +41,8 @@ export default function player(state = initialState, action) {
       return { ...state, paused: false };
     case Types.PAUSE:
       return { ...state, paused: true };
+    case Types.SET_DURATION:
+      return { ...state, duration: action.payload.duration };
     default:
       return state;
   }
@@ -75,5 +80,14 @@ export const Creators = {
   }),
   previous: () => ({
     type: Types.PREVIOUS
+  }),
+  setDuration: duration => ({
+    type: Types.SET_DURATION,
+    payload: {
+      duration
+    }
+  }),
+  getCurrentPosition: () => ({
+    type: Types.GET_CURRENT_POSITION
   })
 };

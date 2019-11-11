@@ -11,7 +11,7 @@ const Rotas = createStackNavigator(
     Search: { screen: Search }
   },
   {
-    navigationOptions: {
+    defaultNavigationOptions: {
       headerStyle: {
         backgroundColor: colors.secundary,
         borderBottomWidth: 0

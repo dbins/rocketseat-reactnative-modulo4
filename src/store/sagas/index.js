@@ -4,7 +4,14 @@ import { Types as SearchTypes } from "../ducks/search";
 import { Types as PlayerTypes } from "../ducks/player";
 import { getAlbums } from "./albums";
 import { search } from "./search";
-import { play, pause, setSong, next, previous } from "./player";
+import {
+  play,
+  pause,
+  setSong,
+  next,
+  previous,
+  getCurrentPosition
+} from "./player";
 export default function* rootSaga() {
   return yield all([
     takeLatest(AlbumTypes.GET_REQUEST, getAlbums),
@@ -13,6 +20,7 @@ export default function* rootSaga() {
     takeLatest(PlayerTypes.PLAY, play),
     takeLatest(PlayerTypes.PAUSE, pause),
     takeLatest(PlayerTypes.NEXT, next),
-    takeLatest(PlayerTypes.PREVIOUS, previous)
+    takeLatest(PlayerTypes.PREVIOUS, previous),
+    takeLatest(PlayerTypes.GET_CURRENT_POSITION, getCurrentPosition)
   ]);
 }
